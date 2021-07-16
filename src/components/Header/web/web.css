@@ -1,0 +1,54 @@
+.web {
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+
+.web-option {
+	font-size: 20px;
+	margin-right: 16px;
+	font-weight: 700;
+}
+
+.web-option a {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+.option-icon {
+	margin-right: 8px;
+	display: flex;
+	align-items: center;
+}
+
+.web-option:last-child {
+	margin-right: 0px;
+}
+
+/* ? Start Under line Animation */
+
+.web-option a:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	display: block;
+	transform: scaleX(0);
+	height: 3px;
+	border-radius: 50px;
+	bottom: 0;
+	left: 0%;
+	background-color: #8a2be2;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.web-option a:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+/* ? END Under line Animation */

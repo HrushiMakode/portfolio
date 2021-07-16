@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+	padding: 12px;
+	position: relative;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.mobile-menu {
+	display: none;
+}
+
+.web-menu {
+	display: flex;
+}
+
+.logo {
+	display: flex;
+	font-size: 36px;
+	color: blueviolet;
+	font-weight: 800;
+	/* font-family: "Days One", sans-serif; */
+}
+
+@media only screen and (max-width: 720px) {
+	.mobile-menu {
+		display: flex;
+	}
+	.web-menu {
+		display: none;
+	}
+	.logo {
+		font-size: 24px;
+	}
+}
