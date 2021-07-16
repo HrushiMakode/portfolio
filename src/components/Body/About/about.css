@@ -1,0 +1,142 @@
+.about {
+	padding-bottom: 48px;
+}
+
+.about-top {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about-info {
+	font-size: 42px;
+}
+
+.typing {
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.info-name {
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.my-name {
+	color: blueviolet;
+}
+
+.about-photo {
+	min-width: 420px;
+	min-height: 420px;
+}
+
+.info-buttons {
+	font-size: 24px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 12px;
+	margin-top: 30px;
+	/* background-color: antiquewhite; */
+}
+
+.info-buttons a {
+	text-decoration: none;
+}
+
+.btn-info {
+	padding: 4px 12px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.hire {
+	background-color: blueviolet;
+	color: white;
+	box-shadow: 4px 4px 4px rgb(138, 43, 226, 0.36);
+}
+
+.work {
+	color: blueviolet;
+	border: 1px solid blueviolet;
+	box-shadow: 4px 4px 4px rgba(52, 43, 56, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+	.info-buttons {
+		flex-direction: column;
+		font-size: 18px;
+	}
+
+	.btn-info {
+		width: 100px;
+		margin-bottom: 24px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.about-top {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.about-photo {
+		min-width: 280px;
+		min-height: 280px;
+	}
+	.about-info {
+		font-size: 24px;
+	}
+	.info-name {
+		font-size: 28px;
+	}
+
+	.my-name {
+		display: flex;
+	}
+
+	.typing {
+		font-size: 18px;
+		padding-top: 18px;
+	}
+}
+
+/* @ Hand Wave Animation */
+
+.wave {
+	animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+	animation-duration: 2.1s; /* Change to speed up or slow down */
+	animation-iteration-count: infinite; /* Never stop waving :) */
+	transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+	display: inline-block;
+}
+
+@keyframes wave-animation {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(14deg);
+	} /* The following five values can be played with to make the waving more or less extreme */
+	20% {
+		transform: rotate(-8deg);
+	}
+	30% {
+		transform: rotate(14deg);
+	}
+	40% {
+		transform: rotate(-4deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	60% {
+		transform: rotate(0deg);
+	} /* Reset for the last half to pause */
+	100% {
+		transform: rotate(0deg);
+	}
+}
