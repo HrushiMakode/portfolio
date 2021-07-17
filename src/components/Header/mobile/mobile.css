@@ -7,6 +7,9 @@
 	padding: 18px 12px;
 	display: flex;
 	flex-direction: column;
+	background-color: blueviolet;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
 }
 
 .close-icon {
