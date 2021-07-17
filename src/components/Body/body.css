@@ -2,3 +2,11 @@
 	padding: 12px;
 	padding-bottom: 36px;
 }
+
+.sea-wave {
+	height: 100px;
+	transform: rotate(180deg);
+	z-index: 5;
+	margin: 0;
+	left: 0;
+}

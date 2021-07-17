@@ -1,5 +1,7 @@
 import React from "react";
 
+import Wave from "react-wavify";
+
 import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
@@ -11,6 +13,17 @@ import "./body.css";
 const Body = () => {
 	return (
 		<div className="body">
+			<Wave
+				fill="#8a2be2"
+				className="sea-wave"
+				paused={false}
+				options={{
+					height: 20,
+					amplitude: 20,
+					speed: 0.4,
+					points: 4,
+				}}
+			/>
 			<section id="about">
 				<About />
 			</section>
