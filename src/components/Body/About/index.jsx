@@ -19,10 +19,10 @@ const About = () => {
 					</div>
 					<div className="info-buttons">
 						<a href="#hire">
-							<div className="hire btn-info ">Hire Me</div>
+							<div className="hireme btn-info ">Hire Me</div>
 						</a>
 						<a href="#work">
-							<div className="work btn-info">My Work</div>
+							<div className="mywork btn-info">My Work</div>
 						</a>
 					</div>
 				</div>
