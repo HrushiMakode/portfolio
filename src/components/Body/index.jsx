@@ -16,7 +16,7 @@ const Body = () => {
 			<Wave
 				fill="#8a2be2"
 				className="sea-wave"
-				paused={false}
+				paused={true}
 				options={{
 					height: 20,
 					amplitude: 20,
@@ -27,11 +27,11 @@ const Body = () => {
 			<section id="about">
 				<About />
 			</section>
-			<section id="work">
-				<Work />
-			</section>
 			<section id="projects">
 				<Projects />
+			</section>
+			<section id="work">
+				<Work />
 			</section>
 			<section id="skills">
 				<Skills />

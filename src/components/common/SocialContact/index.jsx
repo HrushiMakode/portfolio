@@ -1,6 +1,6 @@
 import React from "react";
 import "./social-contact.css";
-import { SocialData } from "../../../Assets/data/social";
+import { SocialData } from "../../../data/social";
 
 const SocialContact = () => {
 	const data = SocialData;
@@ -8,7 +8,12 @@ const SocialContact = () => {
 		<div className="social-contact">
 			{data.map((item) => {
 				return (
-					<a href={item.link} target="_blank" rel="noopener noreferrer">
+					<a
+						href={item.link}
+						target="_blank"
+						rel="noopener noreferrer"
+						key={item.platform}
+					>
 						<div className="social-icon-div">
 							<img
 								src={item.icon}

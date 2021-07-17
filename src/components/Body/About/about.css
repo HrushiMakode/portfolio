@@ -74,7 +74,7 @@
 	box-shadow: 4px 4px 4px rgba(52, 43, 56, 0.2);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
 	.info-buttons {
 		flex-direction: column;
 		font-size: 18px;
