@@ -1,7 +1,7 @@
 import React from "react";
-import Hand from "./SVGs/Hand";
 import Type from "./Type";
 import HomeLogo from "../../../Assets/svgs/coder.svg";
+import Hand from "../../../Assets/svgs/hand.svg";
 import SocialContact from "../../common/SocialContact";
 import "./about.css";
 
@@ -10,7 +10,7 @@ const About = () => {
 		<div className="about">
 			<div className="about-top">
 				<div className="about-info">
-					Hi! There, <Hand size={45} classes="wave" /> <br />
+					Hi! There, <img src={Hand} alt="hand svg" className="wave" /> <br />
 					<span className="info-name">
 						I'M <span className="my-name">HRUSHIKESH MAKODE</span>
 					</span>

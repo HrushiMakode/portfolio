@@ -54,6 +54,14 @@
 	border-radius: 15px;
 }
 
+.btn-info:hover {
+	border: 1px solid;
+	box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(68, 66, 66, 0.2);
+	outline-color: rgba(255, 255, 255, 0);
+	outline-offset: 15px;
+	text-shadow: 1px 1px 2px #2a2d2e;
+}
+
 .hire {
 	background-color: blueviolet;
 	color: white;
@@ -102,6 +110,10 @@
 		font-size: 18px;
 		padding-top: 18px;
 	}
+	.wave {
+		height: 32px;
+		width: 32px;
+	}
 }
 
 /* @ Hand Wave Animation */
@@ -112,6 +124,10 @@
 	animation-iteration-count: infinite; /* Never stop waving :) */
 	transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
 	display: inline-block;
+	min-height: 32px;
+	min-width: 32px;
+	max-width: 48px;
+	max-width: 45px;
 }
 
 @keyframes wave-animation {
