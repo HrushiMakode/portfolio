@@ -7,9 +7,10 @@
 	padding: 18px 12px;
 	display: flex;
 	flex-direction: column;
-	background-color: blueviolet;
+	background-color: rgb(170, 120, 218);
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
+	z-index: 10;
 }
 
 .close-icon {
