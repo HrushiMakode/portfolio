@@ -6,24 +6,6 @@ export const WorkData = [
 		dateEnd: "Present",
 		companyLogo:
 			"https://static.udchalo.com/client_assets/img/favicon/favicon-192x192.ico",
-		work: "Work on Anguler Fron-End , Backend NodeJS",
-	},
-	{
-		company: "Company 1",
-		designation: "Software Engineer",
-		dateJoining: "02-02-2000",
-		dateEnd: "Present",
-		companyLogo:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
-		work: "Worken on Unit testing and creating the largest database efficiently. With over 100 people under me, made it work really well.",
-	},
-	{
-		company: "Company 2",
-		designation: "Software Engineer",
-		dateJoining: "02-02-2000",
-		dateEnd: "Present",
-		companyLogo:
-			"https://iconape.com/wp-content/png_logo_vector/facebook-f-logo-2019.png",
-		work: "Worken on Unit testing and creating the largest database efficiently. With over 100 people under me, made it work really well.",
+		work: "udChalo aims to make flights cost effective for Ex-Servicemen / Indian armed forces, Paramilitary, Veterans and Dependents.",
 	},
 ];
