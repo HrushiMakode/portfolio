@@ -8,19 +8,19 @@ export const SkillsData = [
 			},
 			{
 				name: "Anguler",
-				icon: <i class="devicon-angularjs-plain colored"></i>,
+				icon: <i className="devicon-angularjs-plain colored"></i>,
 			},
 			{
 				name: "JavaScript",
-				icon: <i class="devicon-javascript-plain colored"></i>,
+				icon: <i className="devicon-javascript-plain colored"></i>,
 			},
 			{
 				name: "TypeScript",
-				icon: <i class="devicon-typescript-plain colored"></i>,
+				icon: <i className="devicon-typescript-plain colored"></i>,
 			},
 			{
 				name: "TailwindCSS",
-				icon: <i class="devicon-tailwindcss-plain colored"></i>,
+				icon: <i className="devicon-tailwindcss-plain colored"></i>,
 			},
 		],
 	},
@@ -30,15 +30,15 @@ export const SkillsData = [
 		list: [
 			{
 				name: "NodeJS",
-				icon: <i class="devicon-nodejs-plain colored"></i>,
+				icon: <i className="devicon-nodejs-plain colored"></i>,
 			},
 			{
 				name: "Express",
-				icon: <i class="devicon-express-original colored"></i>,
+				icon: <i className="devicon-express-original colored"></i>,
 			},
 			{
 				name: "GraphQL",
-				icon: <i class="devicon-graphql-plain colored"></i>,
+				icon: <i className="devicon-graphql-plain colored"></i>,
 			},
 		],
 	},
@@ -47,11 +47,11 @@ export const SkillsData = [
 		list: [
 			{
 				name: "MongoDB",
-				icon: <i class="devicon-mongodb-plain colored"></i>,
+				icon: <i className="devicon-mongodb-plain colored"></i>,
 			},
 			{
 				name: "MySQL",
-				icon: <i class="devicon-mysql-plain colored"></i>,
+				icon: <i className="devicon-mysql-plain colored"></i>,
 			},
 		],
 	},
@@ -61,11 +61,11 @@ export const SkillsData = [
 		list: [
 			{
 				name: "C++",
-				icon: <i class="devicon-cplusplus-plain colored"></i>,
+				icon: <i className="devicon-cplusplus-plain colored"></i>,
 			},
 			{
 				name: "Java",
-				icon: <i class="devicon-java-plain colored"></i>,
+				icon: <i className="devicon-java-plain colored"></i>,
 			},
 		],
 	},
@@ -74,11 +74,11 @@ export const SkillsData = [
 		list: [
 			{
 				name: "VS Code",
-				icon: <i class="devicon-vscode-plain colored"></i>,
+				icon: <i className="devicon-vscode-plain colored"></i>,
 			},
 			{
 				name: "Git",
-				icon: <i class="devicon-git-plain colored"></i>,
+				icon: <i className="devicon-git-plain colored"></i>,
 			},
 		],
 	},
