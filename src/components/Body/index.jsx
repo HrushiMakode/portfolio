@@ -36,7 +36,7 @@ const Body = () => {
 			<section id="skills">
 				<Skills />
 			</section>
-			<section id="contacts">
+			<section id="contact">
 				<Contact />
 			</section>
 		</div>

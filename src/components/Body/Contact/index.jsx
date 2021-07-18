@@ -13,7 +13,7 @@ const Contact = () => {
 					<p>Want to get in touch ? Contact me on any of the platform</p>
 					<SocialContact />
 				</div>
-				<div className="download">
+				<div className="download" id="resume">
 					<a
 						href={require("../../../Assets/resume.pdf").default}
 						target="_blank"
