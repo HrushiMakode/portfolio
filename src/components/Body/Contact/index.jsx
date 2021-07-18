@@ -19,7 +19,8 @@ const Contact = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<i class="fi-rr-cloud-download download-icon"></i> Download Resume
+						<i className="fi-rr-cloud-download download-icon"></i> Download
+						Resume
 					</a>
 				</div>
 			</div>
