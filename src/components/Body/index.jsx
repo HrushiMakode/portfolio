@@ -16,7 +16,7 @@ const Body = () => {
 			<Wave
 				fill="#8a2be2"
 				className="sea-wave"
-				paused={true}
+				paused={false}
 				options={{
 					height: 20,
 					amplitude: 20,
