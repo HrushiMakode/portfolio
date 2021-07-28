@@ -18,7 +18,7 @@ const About = () => {
 						<Type />
 					</div>
 					<div className="info-buttons">
-						<a href="#hire">
+						<a href="mailto:makodehrushikesh@gmail.com">
 							<div className="hireme btn-info ">Hire Me</div>
 						</a>
 						<a href="#work">
