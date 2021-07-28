@@ -8,25 +8,30 @@ export const SkillsData = [
 				link: "https://reactjs.org/",
 			},
 			{
-				name: "Anguler",
-				icon: <i className="devicon-angularjs-plain colored"></i>,
-				link: "https://angular.io/",
-			},
-			{
 				name: "JavaScript",
 				icon: <i className="devicon-javascript-plain colored"></i>,
 				link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
 			},
 			{
-				name: "TypeScript",
-				icon: <i className="devicon-typescript-plain colored"></i>,
-				link: "https://www.typescriptlang.org/",
+				name: "Bootstrap",
+				icon: <i className="devicon-bootstrap-plain colored"></i>,
+				link: "https://getbootstrap.com/",
 			},
-			{
-				name: "TailwindCSS",
-				icon: <i className="devicon-tailwindcss-plain colored"></i>,
-				link: "https://tailwindcss.com/",
-			},
+			// {
+			// 	name: "Anguler",
+			// 	icon: <i className="devicon-angularjs-plain colored"></i>,
+			// 	link: "https://angular.io/",
+			// },
+			// {
+			// 	name: "TypeScript",
+			// 	icon: <i className="devicon-typescript-plain colored"></i>,
+			// 	link: "https://www.typescriptlang.org/",
+			// },
+			// {
+			// 	name: "TailwindCSS",
+			// 	icon: <i className="devicon-tailwindcss-plain colored"></i>,
+			// 	link: "https://tailwindcss.com/",
+			// },
 		],
 	},
 
@@ -69,6 +74,11 @@ export const SkillsData = [
 	{
 		type: "Programing Languages",
 		list: [
+			{
+				name: "C",
+				icon: <i className="devicon-c-plain colored"></i>,
+				link: "https://www.geeksforgeeks.org/c-programming-language/",
+			},
 			{
 				name: "C++",
 				icon: <i className="devicon-cplusplus-plain colored"></i>,
