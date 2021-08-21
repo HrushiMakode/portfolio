@@ -8,7 +8,7 @@ const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="header">
+		<div className="header sticky">
 			<div className="logo">HGM</div>
 			<div className="menu">
 				<div className="web-menu">
@@ -18,7 +18,7 @@ const Header = () => {
 					<div className="menu-icon">
 						<Hamburger
 							size={24}
-							color={isOpen ? "#A9A9A9" : "black"}
+							color="black"
 							toggled={isOpen}
 							toggle={setIsOpen}
 						/>

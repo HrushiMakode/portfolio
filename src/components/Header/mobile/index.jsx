@@ -1,13 +1,18 @@
-import React from "react";
-import Hamburger from "hamburger-react";
+import React, { useEffect } from "react";
 import "./mobile.css";
 
 const Mobile = ({ isOpen, setIsOpen }) => {
+	useEffect(() => {
+		const mobileOption = document.querySelector(".mobile-options");
+		mobileOption.addEventListener("click", () => {
+			setIsOpen(!isOpen);
+		});
+
+		console.log(mobileOption);
+	}, [isOpen, setIsOpen]);
+
 	return (
 		<div className="mobile">
-			<div className="close-icon">
-				<Hamburger size={24} toggled={isOpen} toggle={setIsOpen} />
-			</div>
 			<div className="mobile-options">
 				<div className="mobile-option">
 					<a href="#projects">
