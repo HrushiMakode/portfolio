@@ -17,16 +17,16 @@ export const SkillsData = [
 				icon: <i className="devicon-bootstrap-plain colored"></i>,
 				link: "https://getbootstrap.com/",
 			},
-			// {
-			// 	name: "Anguler",
-			// 	icon: <i className="devicon-angularjs-plain colored"></i>,
-			// 	link: "https://angular.io/",
-			// },
-			// {
-			// 	name: "TypeScript",
-			// 	icon: <i className="devicon-typescript-plain colored"></i>,
-			// 	link: "https://www.typescriptlang.org/",
-			// },
+			{
+				name: "Anguler",
+				icon: <i className="devicon-angularjs-plain colored"></i>,
+				link: "https://angular.io/",
+			},
+			{
+				name: "TypeScript",
+				icon: <i className="devicon-typescript-plain colored"></i>,
+				link: "https://www.typescriptlang.org/",
+			},
 			// {
 			// 	name: "TailwindCSS",
 			// 	icon: <i className="devicon-tailwindcss-plain colored"></i>,
@@ -85,9 +85,9 @@ export const SkillsData = [
 				link: "https://www.geeksforgeeks.org/c-plus-plus/",
 			},
 			{
-				name: "Java",
-				icon: <i className="devicon-java-plain colored"></i>,
-				link: "https://www.geeksforgeeks.org/java/",
+				name: "JavaScript",
+				icon: <i className="devicon-javascript-plain colored"></i>,
+				link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
 			},
 		],
 	},
