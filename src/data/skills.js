@@ -3,29 +3,29 @@ export const SkillsData = [
 		type: "FrontEnd",
 		list: [
 			{
+				name: "HTML",
+				icon: <i class="devicon-html5-plain colored"></i>,
+				link: "#",
+			},
+			{
+				name: "CSS",
+				icon: <i class="devicon-css3-plain colored"></i>,
+				link: "#",
+			},
+			{
+				name: "JavaScript",
+				icon: <i className="devicon-javascript-plain colored"></i>,
+				link: "#",
+			},
+			{
 				name: "ReactJS",
 				icon: <i className="devicon-react-original colored"></i>,
 				link: "https://reactjs.org/",
 			},
 			{
-				name: "JavaScript",
-				icon: <i className="devicon-javascript-plain colored"></i>,
-				link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-			},
-			{
-				name: "Bootstrap",
-				icon: <i className="devicon-bootstrap-plain colored"></i>,
-				link: "https://getbootstrap.com/",
-			},
-			{
 				name: "Anguler",
 				icon: <i className="devicon-angularjs-plain colored"></i>,
 				link: "https://angular.io/",
-			},
-			{
-				name: "TypeScript",
-				icon: <i className="devicon-typescript-plain colored"></i>,
-				link: "https://www.typescriptlang.org/",
 			},
 			// {
 			// 	name: "TailwindCSS",
@@ -75,9 +75,14 @@ export const SkillsData = [
 		type: "Programing Languages",
 		list: [
 			{
-				name: "C",
-				icon: <i className="devicon-c-plain colored"></i>,
-				link: "https://www.geeksforgeeks.org/c-programming-language/",
+				name: "JavaScript",
+				icon: <i className="devicon-javascript-plain colored"></i>,
+				link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+			},
+			{
+				name: "TypeScript",
+				icon: <i className="devicon-typescript-plain colored"></i>,
+				link: "https://www.typescriptlang.org/",
 			},
 			{
 				name: "C++",
@@ -85,15 +90,20 @@ export const SkillsData = [
 				link: "https://www.geeksforgeeks.org/c-plus-plus/",
 			},
 			{
-				name: "JavaScript",
-				icon: <i className="devicon-javascript-plain colored"></i>,
-				link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+				name: "C",
+				icon: <i className="devicon-c-plain colored"></i>,
+				link: "https://www.geeksforgeeks.org/c-programming-language/",
 			},
 		],
 	},
 	{
-		type: "Tools",
+		type: "Cloud Technology & Tools",
 		list: [
+			{
+				name: "AWS",
+				icon: <i class="devicon-amazonwebservices-original colored"></i>,
+				link: "https://aws.amazon.com/",
+			},
 			{
 				name: "VS Code",
 				icon: <i className="devicon-vscode-plain colored"></i>,
