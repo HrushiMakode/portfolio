@@ -8,7 +8,7 @@ export const ProjectsData = [
 		demo: "https://expo.io/@hrushimakode/expo-camera-app",
 		github: "https://github.com/HrushiMakode/expo-camera-app",
 		image:
-			"https://blog.crowdbotics.com/content/images/2020/03/React-Native-Featured-Image-1.png",
+			"https://res.cloudinary.com/hilnmyskv/image/upload/q_auto,f_auto/v1619013121/Algolia_com_Blog_assets/Featured_images/engineering/how-we-updated-our-js-libs-for-react-native/vyrmtbcv7toiqlhibmnd.png",
 	},
 	{
 		id: 2,
