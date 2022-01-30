@@ -4,54 +4,43 @@ export const SkillsData = [
 		list: [
 			{
 				name: "HTML",
-				icon: <i class="devicon-html5-plain colored"></i>,
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
 				link: "#",
 			},
 			{
 				name: "CSS",
-				icon: <i class="devicon-css3-plain colored"></i>,
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
 				link: "#",
 			},
 			{
 				name: "JavaScript",
-				icon: <i className="devicon-javascript-plain colored"></i>,
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
 				link: "#",
 			},
 			{
 				name: "ReactJS",
-				icon: <i className="devicon-react-original colored"></i>,
-				link: "https://reactjs.org/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+				link: "#",
 			},
-			{
-				name: "Anguler",
-				icon: <i className="devicon-angularjs-plain colored"></i>,
-				link: "https://angular.io/",
-			},
-			// {
-			// 	name: "TailwindCSS",
-			// 	icon: <i className="devicon-tailwindcss-plain colored"></i>,
-			// 	link: "https://tailwindcss.com/",
-			// },
 		],
 	},
-
 	{
 		type: "BackEnd",
 		list: [
 			{
 				name: "NodeJS",
-				icon: <i className="devicon-nodejs-plain colored"></i>,
-				link: "https://nodejs.org/en/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+				link: "#",
 			},
 			{
 				name: "Express",
-				icon: <i className="devicon-express-original colored"></i>,
-				link: "https://expressjs.com/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+				link: "#",
 			},
 			{
 				name: "GraphQL",
-				icon: <i className="devicon-graphql-plain colored"></i>,
-				link: "https://graphql.org/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+				link: "#",
 			},
 		],
 	},
@@ -60,39 +49,33 @@ export const SkillsData = [
 		list: [
 			{
 				name: "MongoDB",
-				icon: <i className="devicon-mongodb-plain colored"></i>,
-				link: "https://www.mongodb.com/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+				link: "#",
 			},
 			{
 				name: "MySQL",
-				icon: <i className="devicon-mysql-plain colored"></i>,
-				link: "https://www.w3schools.com/MySQL/default.asp",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+				link: "#",
 			},
 		],
 	},
-
 	{
 		type: "Programing Languages",
 		list: [
 			{
 				name: "JavaScript",
-				icon: <i className="devicon-javascript-plain colored"></i>,
-				link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				link: "#",
 			},
 			{
 				name: "TypeScript",
-				icon: <i className="devicon-typescript-plain colored"></i>,
-				link: "https://www.typescriptlang.org/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+				link: "#",
 			},
 			{
 				name: "C++",
-				icon: <i className="devicon-cplusplus-plain colored"></i>,
-				link: "https://www.geeksforgeeks.org/c-plus-plus/",
-			},
-			{
-				name: "C",
-				icon: <i className="devicon-c-plain colored"></i>,
-				link: "https://www.geeksforgeeks.org/c-programming-language/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+				link: "#",
 			},
 		],
 	},
@@ -101,18 +84,18 @@ export const SkillsData = [
 		list: [
 			{
 				name: "AWS",
-				icon: <i class="devicon-amazonwebservices-original colored"></i>,
-				link: "https://aws.amazon.com/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+				link: "#",
 			},
 			{
 				name: "VS Code",
-				icon: <i className="devicon-vscode-plain colored"></i>,
-				link: "https://code.visualstudio.com/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+				link: "#",
 			},
 			{
 				name: "Git",
-				icon: <i className="devicon-git-plain colored"></i>,
-				link: "https://git-scm.com/",
+				icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+				link: "#",
 			},
 		],
 	},
