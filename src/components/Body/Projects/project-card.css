@@ -7,6 +7,10 @@
 	padding: 8px 0px;
 }
 
+.colored {
+	color: var(--text-primary) !important;
+}
+
 .project-photo {
 	width: 40%;
 }
@@ -27,7 +31,7 @@
 }
 
 .tag {
-	background-color: #dcbff6;
+	background-color: var(--secondary);
 	padding: 4px 8px;
 	border-radius: 4px;
 	margin-right: 6px;
@@ -36,7 +40,7 @@
 
 .project-links a {
 	text-decoration: none;
-	color: #000;
+	color: var(--text-primary);
 }
 
 .project-links {
@@ -48,7 +52,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #dcbff6;
+	background-color: var(--secondary);
 	width: max-content;
 
 	font-size: 16px;

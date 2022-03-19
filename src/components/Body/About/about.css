@@ -23,7 +23,7 @@
 }
 
 .my-name {
-	color: blueviolet;
+	color: var(--primary);
 }
 
 .about-photo {
@@ -38,7 +38,6 @@
 	align-items: center;
 	padding: 12px;
 	margin-top: 30px;
-	/* background-color: antiquewhite; */
 }
 
 .info-buttons a {
@@ -46,7 +45,7 @@
 }
 
 .btn-info {
-	border: 1px solid blueviolet;
+	border: 1px solid var(--primary);
 	padding: 4px 12px;
 	width: 8rem;
 	height: 2rem;
@@ -64,13 +63,13 @@
 }
 
 .hireme {
-	background-color: blueviolet;
+	background-color: var(--primary);
 	color: white;
 	box-shadow: 4px 4px 4px rgb(138, 43, 226, 0.36);
 }
 
 .mywork {
-	color: blueviolet;
+	color: var(--primary);
 	box-shadow: 4px 4px 4px rgba(52, 43, 56, 0.2);
 }
 

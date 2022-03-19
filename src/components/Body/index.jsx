@@ -14,7 +14,7 @@ const Body = () => {
 	return (
 		<div className="body">
 			<Wave
-				fill="#8a2be2"
+				fill="var(--primary)"
 				className="sea-wave"
 				paused={false}
 				options={{
