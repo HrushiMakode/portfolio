@@ -7,9 +7,23 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	box-sizing: border-box;
+	background: var(--background);
+	transition: 1s all;
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+:root {
+	--background: white;
+	--text-primary: black;
+	--primary: blueviolet;
+	--secondary: #dcbff6;
+}
+[data-theme="dark"] {
+	--background: rgb(71, 40, 100);
+	--text-primary: rgb(255, 255, 255);
+	--primary: #cba2f1;
+	--secondary: #230e35;
 }

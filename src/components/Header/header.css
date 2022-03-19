@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex: 1;
+	gap: 1.6rem;
 	padding: 12px;
 	position: relative;
 	align-items: center;
@@ -12,7 +13,7 @@
 .sticky {
 	position: sticky;
 	top: 0;
-	background-color: rgb(255, 255, 255);
+	background-color: var(--background);
 	z-index: 99;
 	/* box-shadow: 0px 1px 1px blueviolet; */
 }
@@ -34,13 +35,18 @@
 .logo {
 	display: flex;
 	font-size: 36px;
-	color: blueviolet;
+	color: var(--primary);
 	font-weight: 800;
 	/* font-family: "Days One", sans-serif; */
 }
 
 .menu-icon {
 	z-index: 999;
+}
+
+.mode-toggle {
+	display: flex;
+    align-items: center;
 }
 
 @media only screen and (max-width: 720px) {

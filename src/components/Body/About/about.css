@@ -23,7 +23,7 @@
 }
 
 .my-name {
-	color: blueviolet;
+	color: var(--primary);
 }
 
 .about-photo {
@@ -38,7 +38,6 @@
 	align-items: center;
 	padding: 12px;
 	margin-top: 30px;
-	/* background-color: antiquewhite; */
 }
 
 .info-buttons a {
@@ -46,8 +45,10 @@
 }
 
 .btn-info {
+	border: 1px solid var(--primary);
 	padding: 4px 12px;
-	width: 90%;
+	width: 8rem;
+	height: 2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -55,7 +56,6 @@
 }
 
 .btn-info:hover {
-	border: 1px solid;
 	box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(68, 66, 66, 0.2);
 	outline-color: rgba(255, 255, 255, 0);
 	outline-offset: 15px;
@@ -63,14 +63,13 @@
 }
 
 .hireme {
-	background-color: blueviolet;
+	background-color: var(--primary);
 	color: white;
 	box-shadow: 4px 4px 4px rgb(138, 43, 226, 0.36);
 }
 
 .mywork {
-	color: blueviolet;
-	border: 1px solid blueviolet;
+	color: var(--primary);
 	box-shadow: 4px 4px 4px rgba(52, 43, 56, 0.2);
 }
 
@@ -78,11 +77,11 @@
 	.info-buttons {
 		flex-direction: column;
 		font-size: 18px;
+		gap:2rem;
 	}
 
 	.btn-info {
 		width: 100px;
-		margin-bottom: 24px;
 	}
 }
 
@@ -115,6 +114,18 @@
 		width: 32px;
 	}
 }
+
+@media only screen and (max-width: 800px) {
+	.about-info,.info-name{
+		font-size: 24px;
+	}
+
+	.typing {
+		font-size: 18px;
+		padding-top: 18px;
+	}
+}
+
 
 /* @ Hand Wave Animation */
 

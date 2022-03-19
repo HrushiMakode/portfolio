@@ -2,11 +2,18 @@ html {
 	scroll-behavior: smooth;
 }
 
+.conatiner {
+	background: var(--background);
+	max-width: 100vw;
+}
+
 .home {
 	display: flex;
 	flex-direction: column;
-	width: 82.23%;
+	width: 80%;
 	margin: auto;
+	background: var(--background);
+	color: var(--text-primary);
 }
 
 @media only screen and (max-width: 1024px) {
