@@ -10,6 +10,18 @@ body {
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+:root {
+	--background: white;
+	--text-primary: black;
+	--primary: blueviolet;
+	--accent: #dcbff6;
+}
+[data-theme="dark"] {
+	--background: black;
+	--text-primary: white;
+	--accent: #dcbff6;
+	--primary: #cba2f1;
 }
