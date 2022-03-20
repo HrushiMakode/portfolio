@@ -22,8 +22,8 @@ code {
 	--secondary: #dcbff6;
 }
 [data-theme="dark"] {
-	--background: rgb(71, 40, 100);
+	--background: blueviolet;
 	--text-primary: rgb(255, 255, 255);
-	--primary: #cba2f1;
+	--primary: white;
 	--secondary: #230e35;
 }

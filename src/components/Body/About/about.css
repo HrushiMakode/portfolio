@@ -64,7 +64,7 @@
 
 .hireme {
 	background-color: var(--primary);
-	color: white;
+	color: var(--background);;
 	box-shadow: 4px 4px 4px rgb(138, 43, 226, 0.36);
 }
 
