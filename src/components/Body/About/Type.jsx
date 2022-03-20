@@ -6,7 +6,7 @@ function Type() {
 		<span
 			style={{
 				fontWeight: "lighter",
-				color: "#8a2be2",
+				color: "var(--primary)",
 			}}
 		>
 			<Typewriter
