@@ -42,3 +42,25 @@
 	display: flex;
 	align-items: center;
 }
+
+/* @ Start Under line Animation */
+
+.mobile-option a:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	display: block;
+	transform: scaleX(0);
+	height: 3px;
+	border-radius: 50px;
+	bottom: 0;
+	left: 0%;
+	background-color: #8a2be2;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.mobile-option a:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
