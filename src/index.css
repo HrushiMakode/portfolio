@@ -24,6 +24,6 @@ code {
 [data-theme="dark"] {
 	--background: #11072b;
 	--text-primary: #bcb6b6;
-	--primary: #420080;
+	--primary: blueviolet;
 	--secondary: #230e35;
 }
