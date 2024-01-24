@@ -1,4 +1,4 @@
-name: Deploy to Firebase Hosting on PR
+name: Lint
 'on': pull_request
 jobs:
   lint:
