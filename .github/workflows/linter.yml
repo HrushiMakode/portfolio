@@ -1,0 +1,14 @@
+name: Deploy to Firebase Hosting on PR
+'on': pull_request
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Super-Linter
+        uses: super-linter/super-linter@v5.7.2
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+      # You may pin to the exact commit or the version.
+      # uses: super-linter/super-linter@a8150b40c89574adb5f68bf9502b890a236a06b3
+          
